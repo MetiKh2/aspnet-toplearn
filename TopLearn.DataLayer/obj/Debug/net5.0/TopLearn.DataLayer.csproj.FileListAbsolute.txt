@@ -1,0 +1,15 @@
+D:\پروژه سایت تاپلرن\TopLearn\TopLearn.DataLayer\bin\Debug\net5.0\TopLearn.DataLayer.deps.json
+D:\پروژه سایت تاپلرن\TopLearn\TopLearn.DataLayer\bin\Debug\net5.0\TopLearn.DataLayer.runtimeconfig.json
+D:\پروژه سایت تاپلرن\TopLearn\TopLearn.DataLayer\bin\Debug\net5.0\TopLearn.DataLayer.runtimeconfig.dev.json
+D:\پروژه سایت تاپلرن\TopLearn\TopLearn.DataLayer\bin\Debug\net5.0\TopLearn.DataLayer.dll
+D:\پروژه سایت تاپلرن\TopLearn\TopLearn.DataLayer\bin\Debug\net5.0\ref\TopLearn.DataLayer.dll
+D:\پروژه سایت تاپلرن\TopLearn\TopLearn.DataLayer\bin\Debug\net5.0\TopLearn.DataLayer.pdb
+D:\پروژه سایت تاپلرن\TopLearn\TopLearn.DataLayer\obj\Debug\net5.0\TopLearn.DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\پروژه سایت تاپلرن\TopLearn\TopLearn.DataLayer\obj\Debug\net5.0\TopLearn.DataLayer.AssemblyInfoInputs.cache
+D:\پروژه سایت تاپلرن\TopLearn\TopLearn.DataLayer\obj\Debug\net5.0\TopLearn.DataLayer.AssemblyInfo.cs
+D:\پروژه سایت تاپلرن\TopLearn\TopLearn.DataLayer\obj\Debug\net5.0\TopLearn.DataLayer.csproj.CoreCompileInputs.cache
+D:\پروژه سایت تاپلرن\TopLearn\TopLearn.DataLayer\obj\Debug\net5.0\TopLearn.DataLayer.dll
+D:\پروژه سایت تاپلرن\TopLearn\TopLearn.DataLayer\obj\Debug\net5.0\ref\TopLearn.DataLayer.dll
+D:\پروژه سایت تاپلرن\TopLearn\TopLearn.DataLayer\obj\Debug\net5.0\TopLearn.DataLayer.pdb
+D:\پروژه سایت تاپلرن\TopLearn\TopLearn.DataLayer\obj\Debug\net5.0\TopLearn.DataLayer.genruntimeconfig.cache
+D:\پروژه سایت تاپلرن\TopLearn\TopLearn.DataLayer\obj\Debug\net5.0\TopLearn.DataLayer.csproj.AssemblyReference.cache

@@ -1,0 +1,15 @@
+﻿@page "{id}"
+@model TopLearn.Site.Pages.Admin.Episodes.RemoveEpisodeModel
+@{
+}
+
+<div class="alert-danger">
+    <form method="post">
+        <input type="hidden"  asp-for="ID" />
+        <div>
+            <p>آیا از حذف   مطمئن هستید ؟</p>
+        </div>
+        <a type="button" class="btn-default" href="/Admin/Courses/Index">لغو</a>
+        <input type="submit" class="btn-danger" value="حذف کن" />
+    </form>
+</div>

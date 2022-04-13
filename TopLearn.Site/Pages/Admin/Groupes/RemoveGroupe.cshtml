@@ -1,0 +1,16 @@
+﻿@page "{id}"
+@model TopLearn.Site.Pages.Groupes.RemoveGroupeModel
+@{
+}
+<div class="alert-danger">
+    <form method="post">
+        <input type="hidden" asp-for="Groupe.GroupeID" />
+        @*<input type="hidden" asp-for="Groupe.ParentID" />*@
+
+        <div>
+            <p>آیا از حذف دوره "@Model.Groupe.GroupeTitle" مطمئن هستید ؟</p>
+        </div>
+        <a type="button" class="btn-default" href="/Admin/groupes/">لغو</a>
+        <input type="submit" class="btn-danger" value="حذف کن" />
+    </form>
+</div>

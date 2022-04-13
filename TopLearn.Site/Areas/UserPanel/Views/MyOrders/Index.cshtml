@@ -1,0 +1,80 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using TopLearn.Core.Convertors
+@model List<TopLearn.DataLayer.Entities.Order.Order> 
+@{
+    ViewData["Title"] = "فاکتور ها";
+    Layout = "~/Views/Shared/_DefaultLayout.cshtml";
+}
+
+
+<div class="container">
+    <nav aria-label="breadcrumb">
+        <ul class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">تاپ لرن</a></li>
+            <li class="breadcrumb-item active" aria-current="page"> نمایش فاکتور ها </li>
+        </ul>
+    </nav>
+</div>
+
+
+<main>
+    <div class="container">
+        <div class="user-account">
+            <div class="row">
+                <partial name="_SideBar" />
+                <div class="col-md-9 col-sm-8 col-xs-12">
+                    <section class="user-account-content">
+                        <header><h1> فاکتور شما </h1></header>
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>شماره فاکتور</th>
+                                    <th>تاریخ</th>
+                                    @*<th>جمع</th>*@
+                                    <th>پرداخت</th>
+                                    <th>دستورات</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>
+                                            @item.OrderID
+                                        </td>
+                                        <td>
+                                            @item.CreateDate.ToShamsi()
+                                        </td>
+                                        @*<td>@item.SumAmount</td>*@
+                                        <td>
+                                            @if (item.IsFinaly)
+                                            {
+                                                <p class="text text-success">پرداخت شده</p>
+                                            }
+                                            else
+                                            {
+                                                <p class="text text-danger">پرداخت نشده</p>
+
+                                            }
+                                        </td>
+                                        <td>
+                                            <a class="btn btn-info" href="/UserPanel/MyOrders/ShowOrders/@item.OrderID">نمایش</a>
+                                        </td>
+                                    </tr>
+                                }
+
+
+                               
+                                
+                            
+                              
+                            </tbody>
+                        </table>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

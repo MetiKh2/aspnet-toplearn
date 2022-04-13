@@ -1,0 +1,66 @@
+﻿@using TopLearn.Core.Convertors
+@model IEnumerable<TopLearn.DataLayer.Entities.Question.Question>
+@inject TopLearn.Core.Services.Interfaces.ICourseService _courseService
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="inner" style="padding: 8px">
+                <div class="panel">
+                    @if (ViewBag.CourseId != null)
+                    {
+                        if (User.Identity.IsAuthenticated)
+                        {
+                            if (_courseService.IsUserBuyCourse(User.Identity.Name, (int)ViewBag.CourseId) || _courseService.CourseIsFree((int)ViewBag.CourseId))
+                            {
+                                <a class="btn btn-danger" asp-route-id="@ViewBag.CourseId" asp-action="CreateQuestion" asp-controller="Froum">
+                                    پرسیدن سوال
+                                </a>
+                            }
+                            else
+                            {
+                                <div class="alert alert-danger">
+                                    برای پرسیدن دوره را تهیه کنید
+                                </div>
+                            }
+                        }
+                        else
+                        {
+                            <div class="alert alert-danger">
+                                برای پرسیدن سوال وارد سایت شوید
+                            </div>
+                        }
+                    }
+                    <form class="form-inline" asp-action="Index" method="get">
+                        <input type="text" placeholder="عبارت را وارد کنید" class="form-control" name="filter" />
+                        <button type="submit" class="btn btn-success">
+                            بیاب
+                        </button>
+                        <input type="hidden" name="courseId" value="@ViewBag.CourseId" />
+                    </form>
+                </div>
+                @foreach (var item in Model)
+                {
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <h1>
+                                <a href="/Froum/ShowQuestion/@item.QuestionId">@item.Title</a>
+                            </h1>
+                            <p class="text-muted" style="margin: 10px">
+                                <a>@item.Course.CourseTitle</a> |
+                                <span class="label label-default">@item.User.UserName</span> |
+                                <span class="label label-warning">
+                                    @item.CreateDate.ToShamsi()
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

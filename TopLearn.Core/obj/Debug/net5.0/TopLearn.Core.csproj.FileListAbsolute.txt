@@ -1,0 +1,15 @@
+D:\پروژه سایت تاپلرن\TopLearn\TopLearn.Core\bin\Debug\net5.0\TopLearn.Core.deps.json
+D:\پروژه سایت تاپلرن\TopLearn\TopLearn.Core\bin\Debug\net5.0\TopLearn.Core.dll
+D:\پروژه سایت تاپلرن\TopLearn\TopLearn.Core\bin\Debug\net5.0\ref\TopLearn.Core.dll
+D:\پروژه سایت تاپلرن\TopLearn\TopLearn.Core\bin\Debug\net5.0\TopLearn.Core.pdb
+D:\پروژه سایت تاپلرن\TopLearn\TopLearn.Core\bin\Debug\net5.0\TopLearn.DataLayer.dll
+D:\پروژه سایت تاپلرن\TopLearn\TopLearn.Core\bin\Debug\net5.0\TopLearn.DataLayer.pdb
+D:\پروژه سایت تاپلرن\TopLearn\TopLearn.Core\obj\Debug\net5.0\TopLearn.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\پروژه سایت تاپلرن\TopLearn\TopLearn.Core\obj\Debug\net5.0\TopLearn.Core.AssemblyInfoInputs.cache
+D:\پروژه سایت تاپلرن\TopLearn\TopLearn.Core\obj\Debug\net5.0\TopLearn.Core.AssemblyInfo.cs
+D:\پروژه سایت تاپلرن\TopLearn\TopLearn.Core\obj\Debug\net5.0\TopLearn.Core.csproj.CoreCompileInputs.cache
+D:\پروژه سایت تاپلرن\TopLearn\TopLearn.Core\obj\Debug\net5.0\TopLearn.Core.csproj.CopyComplete
+D:\پروژه سایت تاپلرن\TopLearn\TopLearn.Core\obj\Debug\net5.0\TopLearn.Core.dll
+D:\پروژه سایت تاپلرن\TopLearn\TopLearn.Core\obj\Debug\net5.0\ref\TopLearn.Core.dll
+D:\پروژه سایت تاپلرن\TopLearn\TopLearn.Core\obj\Debug\net5.0\TopLearn.Core.pdb
+D:\پروژه سایت تاپلرن\TopLearn\TopLearn.Core\obj\Debug\net5.0\TopLearn.Core.csproj.AssemblyReference.cache
